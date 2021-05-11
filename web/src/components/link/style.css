@@ -1,0 +1,49 @@
+.link{
+    background-color: rgba(var(--cinza-claro-opacity),.25);
+    margin:1rem;
+    display: flex;
+    justify-content: center;
+    width: 14vw;
+    min-width:18rem ;
+    max-width: 24rem;
+}
+.link>a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.link .fotoContainer{
+    max-height: 19vw;
+    width: 14vw;
+    min-width:18rem ;
+    max-width: 24rem;
+    margin-top:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link .fotoLink{
+    max-height: 100%;
+    max-width: 95%;
+}
+.link .semFoto{
+    background-color: var(--rosa);
+    width: 14vw;
+    min-width:17rem ;
+    max-width: 24rem;
+    margin-top:1rem;
+    min-height: 17vw;
+
+}
+.link .infos{
+    min-height: 5vw;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.link .infos h4{
+    text-align: center;
+}
